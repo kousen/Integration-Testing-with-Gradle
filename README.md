@@ -9,4 +9,6 @@ The interesting part is the Gradle build file, which defines an `integrationTest
 
 Unit tests are also included, using the mock HTTP classes in the Spring API.
 
+To build and run, execute the "gradle build" task. If you don't have gradle installed, run "gradlew build" instead. That will download and install the 1.0-rc-1 version of gradle to your system before executing the build task.
+
 Any questions or comments should be directed to Ken Kousen at [ken.kousen@kousenit.com](mailto:ken.kousen@kousenit.com "Email Ken Kousen").
